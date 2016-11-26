@@ -35,10 +35,6 @@ sites/simpletest
 # Ignore SimpleTest multi-site environment.
 # simpletest
 
-assets/sass
-
-assets/rsc
-
 .sass-cache
 
 node_modules
