@@ -1,0 +1,3 @@
+[submodule "sites/weatherapp"]
+	path = sites/weatherapp
+	url = git@github.com:moigonzalez/weatherapp.git
