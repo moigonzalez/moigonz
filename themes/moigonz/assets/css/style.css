@@ -1,4 +1,19 @@
+@import url(../rsc/bootstrap-4/css/bootstrap-reboot.css);
 @import url(../rsc/bootstrap-4/css/bootstrap-grid.css);
-@import url(../rsc/reset/reset.css);
+@media (min-width: 992px) {
+  .l-aside {
+    position: fixed; } }
+
+.m-site--branding {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh; }
+
+.a-site--logo {
+  display: block; }
+  .a-site--logo img {
+    display: block;
+    margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */
