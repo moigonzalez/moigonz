@@ -1,2 +1,30 @@
+@import '../rsc/bootstrap-4/css/bootstrap-reboot.css';
 @import '../rsc/bootstrap-4/css/bootstrap-grid.css';
-@import '../rsc/reset/reset.css';
+@import '../rsc/mixins.scss';
+@import '../rsc/breakpoints.scss';
+@import '../rsc/header.scss';
+
+.l-aside {
+
+    @include respond-to('medium') {
+
+    	position: fixed;
+    }
+}
+
+.m-site--branding {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.a-site--logo {
+	display: block;
+	
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+}
+
