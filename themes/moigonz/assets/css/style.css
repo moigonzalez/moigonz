@@ -1,10 +1,6 @@
 @import url(../rsc/bootstrap-4/css/bootstrap-reboot.css);
 @import url(../rsc/bootstrap-4/css/bootstrap-grid.css);
-@media (min-width: 992px) {
-  .l-aside {
-    position: fixed; } }
-
-.m-site--branding {
+.l-full-height-flex {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,5 +11,29 @@
   .a-site--logo img {
     display: block;
     margin: 0 auto; }
+
+.m-menu--social ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center; }
+.m-menu--social li {
+  display: inline-block; }
+  .m-menu--social li + li {
+    margin-left: 15px; }
+
+a {
+  color: #333;
+  -moz-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out; }
+  a:hover {
+    color: #737373;
+    text-decoration: none; }
+
+@media (min-width: 992px) {
+  .l-aside {
+    position: fixed; } }
 
 /*# sourceMappingURL=style.css.map */

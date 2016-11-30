@@ -1,0 +1,35 @@
+.l-full-height-flex {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.a-site--logo {
+	display: block;
+	
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+.m-menu {
+
+	&--social {
+		
+		ul {
+		    list-style-type: none;
+		    padding: 0;
+		    margin: 0;
+		    text-align: center;
+		}
+
+		li {
+			display: inline-block;
+			& + li {
+				margin-left: 15px;
+			}
+		}
+	}
+}
