@@ -4,6 +4,17 @@
 @import '../rsc/breakpoints.scss';
 @import '../rsc/header.scss';
 
+a {
+	
+	color: #333;
+	@include transition(color 0.2s ease-in-out);
+	&:hover {
+
+		color: lighten(#333, 25%);
+		text-decoration: none;
+	}
+}
+
 .l-aside {
 
     @include respond-to('medium') {
@@ -11,20 +22,3 @@
     	position: fixed;
     }
 }
-
-.m-site--branding {
-	display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
-}
-
-.a-site--logo {
-	display: block;
-	
-	img {
-		display: block;
-		margin: 0 auto;
-	}
-}
-
