@@ -2,12 +2,13 @@
 @import '../rsc/bootstrap-4/css/bootstrap-grid.css';
 @import '../rsc/mixins.scss';
 @import '../rsc/breakpoints.scss';
+@import '../rsc/font-awesome/scss/font-awesome.scss';
 @import '../rsc/header.scss';
 
 a {
-	
 	color: #333;
 	@include transition(color 0.2s ease-in-out);
+	
 	&:hover {
 
 		color: lighten(#333, 25%);
@@ -15,10 +16,42 @@ a {
 	}
 }
 
+.a-icon--github {
+	font-size: 0;
+
+
+	&:before {
+		font-family: FontAwesome;
+		content: '\f09b';
+		font-size: 21px;
+	}
+}
+
+.a-icon--instagram {
+	font-size: 0;
+
+
+	&:before {
+		font-family: FontAwesome;
+		content: '\f16d';
+		font-size: 21px;
+	}
+}
+
+.a-icon--linkedin {
+	font-size: 0;
+
+
+	&:before {
+		font-family: FontAwesome;
+		content: '\f08c';
+		font-size: 21px;
+	}
+}
+
 .l-aside {
 
     @include respond-to('medium') {
-
     	position: fixed;
     }
 }
