@@ -2397,7 +2397,7 @@ a {
     margin-bottom: 2.5rem; }
   .m-post--wrapper:before, .m-post--wrapper:after {
     position: absolute;
-    top: 25%;
+    top: 75px;
     left: 50%;
     width: 5%;
     height: 1px;
@@ -2432,7 +2432,7 @@ a {
   .l-bordered-view-rows .views-row + .views-row:before {
     content: '';
     position: absolute;
-    top: 75px;
+    top: 0;
     left: 50%;
     height: 1px;
     background-color: #b3b3b3;
