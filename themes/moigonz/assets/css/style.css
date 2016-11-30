@@ -2432,7 +2432,7 @@ a {
   .l-bordered-view-rows .views-row + .views-row:before {
     content: '';
     position: absolute;
-    top: 0;
+    top: 75px;
     left: 50%;
     height: 1px;
     background-color: #b3b3b3;
