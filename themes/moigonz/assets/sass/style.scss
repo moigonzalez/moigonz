@@ -74,6 +74,7 @@ a {
 		top: 75px;
 		left: 50%;
 		width: 5%;
+		max-width: 45px;
 		height: 1px;
 		background: #333;
 		content: '';
@@ -119,7 +120,7 @@ a {
 
 .l-aside {
 
-    @include respond-to('medium') {
+    @include respond-to('small') {
     	position: fixed;
     }
 }
