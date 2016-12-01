@@ -4,6 +4,19 @@
 @import '../rsc/breakpoints.scss';
 @import '../rsc/font-awesome/scss/font-awesome.scss';
 @import '../rsc/header.scss';
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,700');
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
 
 a {
 	color: #333;
