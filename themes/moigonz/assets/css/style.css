@@ -7,6 +7,7 @@
  */
 /* FONT PATH
  * -------------------------- */
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,700");
 @font-face {
   font-family: 'FontAwesome';
   src: url("../fonts/font-awesome/fontawesome-webfont.eot?v=4.7.0");
@@ -2349,6 +2350,16 @@
   .a-site--logo img {
     display: block;
     margin: 0 auto; }
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700; }
 
 a {
   color: #333;
