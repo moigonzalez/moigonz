@@ -1,3 +1,6 @@
 [submodule "sites/weatherapp"]
 	path = sites/weatherapp
 	url = git@github.com:moigonzalez/weatherapp.git
+[submodule "sites/nodejslab"]
+	path = sites/nodejslab
+	url = git@github.com:moigonzalez/nodejslab.git
