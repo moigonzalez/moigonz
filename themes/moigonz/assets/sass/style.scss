@@ -72,6 +72,14 @@ a {
 	}
 }
 
+.a-icon--mail {
+
+	&:before {
+		content: '\f0e0';
+		font-size: 26px;
+	}
+}
+
 .m-post--wrapper {
 	position: relative;
 	text-align: center;
