@@ -22,8 +22,9 @@ a {
 	color: #333;
 	@include transition(color 0.2s ease-in-out);
 	
-	&:hover {
-
+	&:hover,
+	&:focus,
+	&:active {
 		color: lighten(#333, 25%);
 		text-decoration: none;
 	}
@@ -43,6 +44,7 @@ a {
 [class^='a-icon'],
 [class*=' a-icon-'] {
 	font-size: 0;
+
 	&:before {
 		font-family: FontAwesome;
 	}

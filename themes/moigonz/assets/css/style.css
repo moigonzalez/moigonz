@@ -2367,7 +2367,7 @@ a {
   -o-transition: color 0.2s ease-in-out;
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out; }
-  a:hover {
+  a:hover, a:focus, a:active {
     color: #737373;
     text-decoration: none; }
 
