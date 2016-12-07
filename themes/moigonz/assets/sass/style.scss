@@ -4,6 +4,7 @@
 @import '../rsc/breakpoints.scss';
 @import '../rsc/font-awesome/scss/font-awesome.scss';
 @import '../rsc/header.scss';
+@import '../rsc/icons.scss';
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,700');
 
 body {
@@ -39,47 +40,6 @@ a {
 	height: 100%;
 	width: 100%;
 	z-index: 2;
-}
-
-[class^='a-icon'],
-[class*=' a-icon-'] {
-	font-size: 0;
-
-	&:before {
-		font-family: FontAwesome;
-	}
-}
-
-.a-icon--github {
-
-	&:before {
-		content: '\f09b';
-		font-size: 26px;
-	}
-}
-
-.a-icon--instagram {
-
-	&:before {
-		content: '\f16d';
-		font-size: 26px;
-	}
-}
-
-.a-icon--linkedin {
-
-	&:before {
-		content: '\f08c';
-		font-size: 26px;
-	}
-}
-
-.a-icon--mail {
-
-	&:before {
-		content: '\f0e0';
-		font-size: 26px;
-	}
 }
 
 .m-post--wrapper {
