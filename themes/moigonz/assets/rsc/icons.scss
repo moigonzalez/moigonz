@@ -1,0 +1,40 @@
+[class^='a-icon'],
+[class*=' a-icon-'] {
+	font-size: 0;
+
+	&:before {
+		font-family: FontAwesome;
+	}
+}
+
+.a-icon--github {
+
+	&:before {
+		content: '\f09b';
+		font-size: 26px;
+	}
+}
+
+.a-icon--instagram {
+
+	&:before {
+		content: '\f16d';
+		font-size: 26px;
+	}
+}
+
+.a-icon--linkedin {
+
+	&:before {
+		content: '\f08c';
+		font-size: 26px;
+	}
+}
+
+.a-icon--mail {
+
+	&:before {
+		content: '\f0e0';
+		font-size: 26px;
+	}
+}
