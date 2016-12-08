@@ -1,5 +1,6 @@
 @import '../rsc/bootstrap-4/css/bootstrap-reboot.css';
 @import '../rsc/bootstrap-4/css/bootstrap-grid.css';
+@import '../rsc/variables.scss';
 @import '../rsc/mixins.scss';
 @import '../rsc/breakpoints.scss';
 @import '../rsc/font-awesome/scss/font-awesome.scss';
@@ -20,15 +21,47 @@ h1, h2, h3, h4, h5 {
 }
 
 a {
-	color: #333;
+	color: $color-primary;
 	@include transition(color 0.2s ease-in-out);
 	
 	&:hover,
 	&:focus,
 	&:active {
-		color: lighten(#333, 25%);
+		color: $color-hover;
 		text-decoration: none;
 	}
+}
+
+p a {
+	text-decoration: underline;
+
+	&:hover,
+	&:focus,
+	&:active {
+		text-decoration: underline;
+	}
+}
+
+.button {
+	display: inline-block;
+	text-decoration: none;
+	background-color: $color-primary;
+	color: white;
+	padding: 10px 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 4px;
+	@include transition(background-color 0.2s ease-in-out);
+
+	&:hover {
+		color: white;
+		background-color: $color-hover;
+		text-decoration: none;
+	}
+}
+
+.align-center {
+	text-align: center;
 }
 
 .a-link--overlay {
@@ -59,7 +92,7 @@ a {
 		width: 5%;
 		max-width: 45px;
 		height: 1px;
-		background: #333;
+		background: $color-primary;
 		content: '';
 		@include transition(opacity 0.3s, transform 0.3s);
 		@include transform(translate3d(-50%, -50%, 0));
@@ -92,7 +125,7 @@ a {
 				top: 0;
 				left: 50%;
 				height: 1px;
-				background-color: lighten(#333, 50%);
+				background-color: $color-hover;
 				width: 80%;
 				@include transform(translate3d(-50%, -50%, 0));
 			}
@@ -102,7 +135,6 @@ a {
 
 
 .l-aside {
-
     @include respond-to('small') {
     	position: fixed;
     }
