@@ -43,8 +43,9 @@ p a {
 }
 
 p + h2,
-img + h2 {
-	margin-top: 40px;
+img + h2
+figure + h2 {
+	margin-top: 30px;
 }
 
 img + p {
