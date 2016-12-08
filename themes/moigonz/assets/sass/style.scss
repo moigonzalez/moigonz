@@ -42,6 +42,15 @@ p a {
 	}
 }
 
+p + h2,
+img + h2 {
+	margin-top: 40px;
+}
+
+img + p {
+	margin-top: 20px;
+} 
+
 .button {
 	display: inline-block;
 	text-decoration: none;
