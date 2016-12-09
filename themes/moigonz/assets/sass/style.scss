@@ -84,6 +84,12 @@ strong {
 	text-align: center;
 }
 
+.u-truncate {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
 .a-link--overlay {
 	font-size: 0;
 	display: block;
