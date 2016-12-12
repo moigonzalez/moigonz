@@ -4,3 +4,6 @@
 [submodule "sites/nodejslab"]
 	path = sites/nodejslab
 	url = git@github.com:moigonzalez/nodejslab.git
+[submodule "sites/ioniclab"]
+	path = sites/ioniclab
+	url = git@github.com:moigonzalez/ioniclab.git
