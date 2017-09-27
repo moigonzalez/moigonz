@@ -25,13 +25,25 @@
 	}
 }
 
-.m-site--branding {
-	margin-bottom: 20px;
+.m-site {
+
+	&--branding {
+		margin-bottom: 20px;
+	}
+
+	&--description {
+		text-align: center;
+		font-size: 20px;
+	}
+
+	&--slogan {
+		font-size: 80%;
+	}
 }
 
 .a-site--logo {
 	display: block;
-	
+
 	img {
 		display: block;
 		margin: 0 auto;
