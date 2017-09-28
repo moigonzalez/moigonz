@@ -1,4 +1,9 @@
 .m-sitelinks {
+    height: 35vh;
+
+    @include respond-to('small') {
+      height: 100vh;
+    }
 
     &--text {
       display: block;
@@ -19,12 +24,16 @@
       background-color: $color-primary;
       color: white;
       text-align: center;
-      font-size: 40px;
+      font-size: 20px;
       @include transition(background-color 0.2s ease-in-out);
 
       &:hover {
         background-color: $color-hover;
         color: white;
+      }
+
+      @include respond-to('small') {
+        font-size: 40px;
       }
 
       & + & {

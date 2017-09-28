@@ -4,8 +4,12 @@
 
   &--img {
     & img {
-      max-width: 350px;
+      max-width: 100%;
       height: auto;
+
+      @include respond-to('small') {
+        max-width: 350px;
+      }
     }
   }
 

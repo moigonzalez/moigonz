@@ -41,11 +41,19 @@
 	}
 }
 
+.m-frontpage-header {
+	height: 65vh;
+	@include respond-to('small') {
+		height: 100vh;
+	}
+}
+
 .a-site--logo {
 	display: block;
 
 	img {
 		display: block;
 		margin: 0 auto;
+		height: auto;
 	}
 }
