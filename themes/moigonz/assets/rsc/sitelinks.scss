@@ -1,0 +1,34 @@
+.m-sitelinks {
+
+    &--text {
+      display: block;
+      margin: 0;
+      text-transform: lowercase;
+
+      & .fa {
+        font-size: 60%;
+        vertical-align: middle;
+      }
+    }
+
+    &--link {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 50%;
+      background-color: $color-primary;
+      color: white;
+      text-align: center;
+      font-size: 40px;
+      @include transition(background-color 0.2s ease-in-out);
+
+      &:hover {
+        background-color: $color-hover;
+        color: white;
+      }
+
+      & + & {
+        margin-top: 10px;
+      }
+    }
+}

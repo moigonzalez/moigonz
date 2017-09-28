@@ -6,6 +6,8 @@
 @import '../rsc/font-awesome/scss/font-awesome.scss';
 @import '../rsc/header.scss';
 @import '../rsc/icons.scss';
+@import '../rsc/sitelinks.scss';
+@import '../rsc/projectteaser.scss';
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,700');
 
 body {
@@ -23,7 +25,7 @@ h1, h2, h3, h4, h5 {
 a {
 	color: $color-primary;
 	@include transition(color 0.2s ease-in-out);
-	
+
 	&:hover,
 	&:focus,
 	&:active {

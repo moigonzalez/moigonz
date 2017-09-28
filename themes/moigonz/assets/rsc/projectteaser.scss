@@ -1,0 +1,23 @@
+.m-projectteaser {
+  text-align: center;
+  margin: 35px 0;
+
+  &--img {
+    & img {
+      max-width: 350px;
+      height: auto;
+    }
+  }
+
+  &--link {
+    a:after {
+      display: inline-block;
+      font: normal normal normal 14px/1 FontAwesome;
+      font-size: inherit;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      content: '\f061';
+      margin-left: 5px;
+    }
+  }
+}
